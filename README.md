@@ -4,10 +4,12 @@
 
 ## Pasos para instalar:
 
-> 1. Descargar o empaquetar la extensión
+> 1. Descargar o empaquetar la extensión*
 > 2. Ir a la sección de extensiones (chrome://extensions/), (vivaldi://extensions/)...
 > 3. Arrastar el archivo crx
 > 4. Pulsa añadir extensión
+
+> Si el navegador bloquea la extensión usar la opción 'Cargar descomprimida'
 
 ## Pasos para empaquetar:
 
