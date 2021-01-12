@@ -1,0 +1,47 @@
+{
+	"author": "Astro_Corp",
+	"manifest_version": 2,
+	"name": "VNDB Mod",
+	"version": "0.1.0",
+	"description": "Mods for VNDB",
+	"homepage_url": "https://github.com/AstroCorp/VNDB-Mod-Chrome-Extension",
+	"content_scripts": [
+		{
+			"css": [
+				"css/styles.css"
+			],
+			"js": [
+				"js/mainController.js",
+				"js/scripts.js"
+			],
+			"all_frames": true,
+			"matches": [
+				"*://query.vndb.org/*",
+				"*://vndb.org/u*/list",
+				"*://vndb.org/u*/votes",
+				"*://vndb.org/u*/wish",
+				"*://vndb.org/u*/list?c=*;v=*;t=*",
+				"*://vndb.org/u*/votes?c=*",
+				"*://vndb.org/u*/wish?f=*",
+				"*://vndb.org/u*/ulist?*",
+				"*://vndb.org/v",
+				"*://vndb.org/v?*"
+			]
+		}
+	],
+	"icons":{ 
+		"128":"icons/icon-128.png",
+		"96":"icons/icon-96.png",
+		"48":"icons/icon-48.png",
+		"16":"icons/icon-16.png"
+	},
+	"permissions":[ 
+		"https://vndb.org/*",
+		"https://query.vndb.org/*",
+		"webRequest",
+		"storage",
+		"unlimitedStorage",  
+		"webRequestBlocking",
+		"browsingData"
+	]
+}
