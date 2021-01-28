@@ -17,3 +17,7 @@
 > 2. Click en "empaquetar extensión"
 > 3. Rellena el formulario de la modal
 > 4. Seguir los pasos de instalación
+
+## Previews
+
+![preview 1](./preview_1.gif)
