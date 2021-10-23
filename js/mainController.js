@@ -47,6 +47,10 @@ class MainController
                             return;
                         }
 
+                        // Eliminamos el tittle para que no moleste al ver la preview
+                        targetElement.removeAttribute('title');
+
+                        // Generamos la preview
                         const imgPreview = document.createElement('DIV');
                         imgPreview.id = 'img-preview';
                         imgPreview.style.zIndex = 99999;

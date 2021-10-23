@@ -2,7 +2,7 @@
 	"author": "Astro_Corp",
 	"manifest_version": 2,
 	"name": "VNDB Mod",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "Mods for VNDB",
 	"homepage_url": "https://github.com/AstroCorp/VNDB-Mod-Chrome-Extension",
 	"content_scripts": [
