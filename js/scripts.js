@@ -1,6 +1,5 @@
 try {
-	const main = new MainController();
-	main.run();
+	MainController.init();
 } catch (error) {
 	console.error(error);
 }
