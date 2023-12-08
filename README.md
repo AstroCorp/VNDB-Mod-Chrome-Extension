@@ -1,6 +1,6 @@
 # VNDB Mod Extension Chrome
 
-![latest-version](https://img.shields.io/badge/Latest%20Version-0.2.1-brightgreen.svg)
+![latest-version](https://img.shields.io/badge/Latest%20Version-0.2.2-brightgreen.svg)
 
 ## Instalar sin empaquetar
 
